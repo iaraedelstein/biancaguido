@@ -11668,3 +11668,26 @@ form button {
   display: block;
 }
 
+.header-image {
+  background-image: url('/assets/img/bianguido.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image-title {
+  text-align: center;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+@media (min-width: 500px) {
+  .header-image {
+    min-height: 400px;
+  }
+}
