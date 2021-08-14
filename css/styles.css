@@ -11686,8 +11686,14 @@ form button {
   padding-bottom: 5rem !important;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
   .header-image {
-    min-height: 400px;
+    min-height: 840px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .header-image {
+    min-height: 750px;
   }
 }
