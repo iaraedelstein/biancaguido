@@ -10,5 +10,4 @@ for($i = 0;$i < count($list);$i++){
         margin:0px;
         padding:10px;
     }
-    
 </style>

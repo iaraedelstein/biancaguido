@@ -2,12 +2,9 @@
 if($_POST){
     $json = file_get_contents("invites.json");
     $invites = json_decode($json);
-
     $invite["name"] = $_POST["name"];
     $invite["templo"] = $_POST["templo"];
     $invite["fiesta"] = $_POST["fiesta"];
-
-
     $invites[] = $invite;
     file_put_contents("invites.json",json_encode($invites));
     //var_dump($invites);
@@ -42,7 +39,6 @@ if($_POST){
             </h1>
         </div>
         <div class="py-5 bg-image-full" style="background-image: url('./assets/img/bianguido2.jpg')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
             <div style="height: 20rem"></div>
         </div>
 </html>
